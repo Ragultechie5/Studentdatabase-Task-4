@@ -1,26 +1,36 @@
-# 💻 Task 4 – Aggregate Functions and Grouping
+# 📊 SQL Developer Internship – Task 4
+
+## 📝 Task Name: Aggregate Functions and Grouping
+
+---
 
 ## 🎯 Objective:
-To apply aggregate functions and use GROUP BY and HAVING clauses to analyze tabular data from a relational database.
+To apply *aggregate functions* and *grouping* to summarize and analyze tabular data using SQL.
 
 ---
 
 ## 🛠 Tools Used:
-- MySQL Workbench
-- SQL Queries
+- *MySQL Workbench*
+- *SQL Queries*
 
 ---
 
-## 🗂 Tables Used:
-Same as Task 3:
+## 🧾 Tables Used:
+(Same as Task 3)
 - students
 - courses
 - enrollments
 
 ---
 
-## 📋 SQL Queries and Purpose:
+## 🔑 Key Concepts:
+- GROUP BY
+- HAVING
+- Aggregate Functions: 
+  - COUNT()
+  - SUM()
+  - AVG()
+  - MAX()
+  - ROUND()
 
-### 1. Total number of students:
-```sql
-SELECT COUNT(*) AS TotalStudents FROM students;
+---
